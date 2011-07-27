@@ -51,7 +51,7 @@ l1:
 l2:
 	cout<<endl<<"Current date: ";
 	cin>>p_dd>>p_mm>>p_yyyy;
-	if( validate(p_dd,p_mm,p_yyyy) && p_yyyy < yyyy )
+	if( validate(p_dd,p_mm,p_yyyy) && p_yyyy > yyyy )
 		cout<<p_dd<<"/"<<p_mm<<"/"<<p_yyyy;
 	else 
 	{
